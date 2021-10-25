@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qV0-4m-84d">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="KUd-Fz-X6X">
+            <objects>
+                <viewController id="qV0-4m-84d" customClass="ViewController" customModule="saraJSON" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qgx-34-uMU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DAY22(👾)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6BT-zv-vzy">
+                                <rect key="frame" x="20" y="44" width="394" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" red="0.1820601225" green="0.19482430819999999" blue="0.47790652509999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6kv-zz-1cr">
+                                <rect key="frame" x="0.0" y="110" width="414" height="167"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="74" id="tER-CM-MyB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="60"/>
+                                <color key="textColor" red="0.0" green="0.56031829119999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4KB-Ma-lA1">
+                                <rect key="frame" x="0.0" y="544" width="414" height="81"/>
+                                <fontDescription key="fontDescription" name="PartyLetPlain" family="Party LET" pointSize="50"/>
+                                <color key="textColor" systemColor="systemOrangeColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="duV-rU-e8i">
+                                <rect key="frame" x="0.0" y="381" width="414" height="73"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="50"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dbo-uS-2Dm">
+                                <rect key="frame" x="0.0" y="701" width="414" height="76"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="76" id="Fad-gy-APv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="50"/>
+                                <color key="textColor" systemColor="systemIndigoColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="pQo-ju-MA9"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6kv-zz-1cr" firstAttribute="trailing" secondItem="6BT-zv-vzy" secondAttribute="trailing" id="0f3-Ej-uMF"/>
+                            <constraint firstItem="pQo-ju-MA9" firstAttribute="trailing" secondItem="6BT-zv-vzy" secondAttribute="trailing" id="2fx-s7-D08"/>
+                            <constraint firstItem="6BT-zv-vzy" firstAttribute="leading" secondItem="pQo-ju-MA9" secondAttribute="leading" constant="20" id="40O-qc-swV"/>
+                            <constraint firstItem="6kv-zz-1cr" firstAttribute="leading" secondItem="duV-rU-e8i" secondAttribute="leading" id="4Bo-qB-2uo"/>
+                            <constraint firstItem="duV-rU-e8i" firstAttribute="top" secondItem="6kv-zz-1cr" secondAttribute="bottom" constant="104" id="CRg-H1-86Z"/>
+                            <constraint firstItem="Dbo-uS-2Dm" firstAttribute="top" secondItem="duV-rU-e8i" secondAttribute="bottom" constant="247" id="Doz-SH-VIg"/>
+                            <constraint firstItem="duV-rU-e8i" firstAttribute="trailing" secondItem="4KB-Ma-lA1" secondAttribute="trailing" id="MrS-jd-qia"/>
+                            <constraint firstItem="pQo-ju-MA9" firstAttribute="bottom" secondItem="Dbo-uS-2Dm" secondAttribute="bottom" constant="85" id="ZAa-7e-KT5"/>
+                            <constraint firstItem="6kv-zz-1cr" firstAttribute="centerX" secondItem="qgx-34-uMU" secondAttribute="centerX" id="gNU-yx-oL3"/>
+                            <constraint firstItem="6kv-zz-1cr" firstAttribute="trailing" secondItem="duV-rU-e8i" secondAttribute="trailing" id="hTb-gw-0Kq"/>
+                            <constraint firstItem="duV-rU-e8i" firstAttribute="leading" secondItem="4KB-Ma-lA1" secondAttribute="leading" id="kC3-8t-6Ih"/>
+                            <constraint firstItem="4KB-Ma-lA1" firstAttribute="top" secondItem="duV-rU-e8i" secondAttribute="bottom" constant="90" id="qag-0E-CmV"/>
+                            <constraint firstItem="6BT-zv-vzy" firstAttribute="top" secondItem="pQo-ju-MA9" secondAttribute="top" id="yMP-a3-jSP"/>
+                            <constraint firstItem="4KB-Ma-lA1" firstAttribute="leading" secondItem="Dbo-uS-2Dm" secondAttribute="leading" id="ydA-qL-Ijr"/>
+                            <constraint firstItem="4KB-Ma-lA1" firstAttribute="trailing" secondItem="Dbo-uS-2Dm" secondAttribute="trailing" id="yv7-jt-9zi"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="count1" destination="Dbo-uS-2Dm" id="v2W-A1-ot3"/>
+                        <outlet property="gender1" destination="4KB-Ma-lA1" id="WfU-XP-MRc"/>
+                        <outlet property="name1" destination="6kv-zz-1cr" id="4gV-VN-jM4"/>
+                        <outlet property="probablitity1" destination="duV-rU-e8i" id="sQi-D6-sq1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O9F-m3-gPC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-23.188405797101453" y="65.625"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
